@@ -1,8 +1,18 @@
-body{
-    background-color: rgb(218, 91, 12);
-
+* {
+    box-sizing: border-box;
 }
-ul, ol{
+*::after {
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(218, 91, 12);
+}
+ul, ol {
     list-style: none;
     align-items: center;
     font-size: 25px;
@@ -10,20 +20,110 @@ ul, ol{
     text-align: center;
     margin-right: 40px;
 }
-#title{
-    color: green;
+#title {
+    color: rgb(116, 89, 0);
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+    background-color: #da992a;
+    border: 5px solid #9e5e0a;
+    width: 400px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-img{
+img {
+    border: 2px solid #9e5e0a;
+    background-color: #da992a;
+    padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-h1,h2{
+h1,h2 {
+    color: rgb(116, 89, 0);
+    text-align: center;
+    background-color: #da992a;
+    border: 5px solid #9e5e0a;
+    width: 400px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#description {
+    width: 800px;
+}
+p {
     text-align: center;
 }
-p{
+
+#links_container {
+    border: 5px solid #95640e;
+    width: 500px;
+    height: 200px;
+    background: #ca8815;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(247, 193, 14);
+}
+
+a:visited {
+    color: rgb(255, 189, 58);
+  }
+  
+a:hover {
+    color: rgb(255, 223, 105);
+  }
+  
+a:active {
+    color: rgb(255, 153, 0);
+  }
+
+#chicken_carbonara_pasta_bake_link {
+    margin-bottom: 20px;
+}
+#tater_tot_hotdish_link {
+    margin-bottom: 20px;
+}
+
+#cook_time {
+    color: #473f32;
+    background-color: #da992a;
+    border: 2px solid #9e5e0a;
+    width: 400px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps {
+    width: 300px;
+}
+
+.ingredients_list {
+    color: #473f32;
+    background-color: #da992a;
+    border: 2px solid #9e5e0a;
+    width: 800px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps_list {
+    color: #473f32;
+    background-color: #da992a;
+    border: 2px solid #9e5e0a;
+    width: 1200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
